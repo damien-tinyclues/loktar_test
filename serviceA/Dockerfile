@@ -1,1 +1,1 @@
-FROM loktar/base:0.1
+FROM loktar/base==0.1
