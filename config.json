@@ -1,0 +1,144 @@
+{
+  "packages": [
+     {
+      "pkg_name": "base",
+      "pkg_dir": "docker/images/components",
+      "pkg_type": "microservice",
+      "type": "docker",
+      "components": {
+        "redis": false,
+        "elasticsearch": false,
+        "mongo": false
+      }
+    },
+    {
+      "pkg_type": "whl",
+      "pkg_name": "lib0",
+      "test_type": "make",
+      "type": "library",
+      "extra_args": "--runslow",
+      "components": {
+        "elasticsearch": false,
+        "mongo": false,
+        "redis": false
+      },
+      "exclude_dependencies_only_on_keywords": [
+        "CLN"
+      ]
+    },
+    {
+      "pkg_type": "whl",
+      "pkg_name": "lib1",
+      "test_type": "make",
+      "type": "library",
+      "components": {
+        "elasticsearch": false,
+        "mongo": false,
+        "redis": false
+      },
+      "exclude_dependencies_only_on_keywords": [
+        "CLN",
+        "BENH",
+        "DOC"
+      ]
+    },
+    {
+      "pkg_type": "whl",
+      "pkg_name": "lib2",
+      "test_type": "make",
+      "type": "library",
+      "components": {
+        "elasticsearch": false,
+        "mongo": false,
+        "redis": false
+      },
+      "exclude_dependencies_only_on_keywords": [
+        "CLN",
+        "BENH",
+        "DOC"
+      ]
+    },
+    {
+      "pkg_type": "whl",
+      "pkg_name": "lib3",
+      "test_type": "make",
+      "type": "library",
+      "components": {
+        "elasticsearch": false,
+        "mongo": false,
+        "redis": false
+      },
+      "exclude_dependencies_only_on_keywords": [
+        "CLN",
+        "BENH",
+        "DOC"
+      ]
+    },
+    {
+      "pkg_type": "whl",
+      "pkg_name": "lib4",
+      "test_type": "make",
+      "type": "library",
+      "components": {
+        "elasticsearch": false,
+        "mongo": false,
+        "redis": false
+      },
+      "exclude_dependencies_only_on_keywords": [
+        "CLN",
+        "BENH",
+        "DOC"
+      ]
+    },
+    {
+      "test_type": "make",
+      "pkg_name": "serviceA",
+      "pkg_type": "microservice",
+      "components": {
+        "redis": false,
+        "elasticsearch": false,
+        "mongo": false
+      }
+    },
+    {
+      "test_type": "make",
+      "pkg_name": "serviceB",
+      "pkg_type": "microservice",
+      "components": {
+        "redis": false,
+        "elasticsearch": false,
+        "mongo": false
+      }
+    },
+    {
+      "test_type": "make",
+      "pkg_name": "serviceC",
+      "pkg_type": "microservice",
+      "components": {
+        "redis": false,
+        "elasticsearch": false,
+        "mongo": false
+      }
+    },
+    {
+      "test_type": "make",
+      "pkg_name": "serviceD",
+      "pkg_type": "microservice",
+      "components": {
+        "redis": false,
+        "elasticsearch": false,
+        "mongo": false
+      }
+    },
+    {
+      "test_type": "make",
+      "pkg_name": "serviceE",
+      "pkg_type": "microservice",
+      "components": {
+        "redis": false,
+        "elasticsearch": false,
+        "mongo": false
+      }
+    }
+  ]
+}
