@@ -139,6 +139,11 @@
         "elasticsearch": false,
         "mongo": false
       }
+    },
+    {
+      "test_type": "ant",
+      "pkg_name": "serviceF",
+      "pkg_type": "lambda"
     }
   ]
 }
